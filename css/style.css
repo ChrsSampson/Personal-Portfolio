@@ -19,11 +19,14 @@ body{
     background-color: var(--background);
     margin:0px;
     padding:0px;
-}
-main{
-    overflow: hidden;
+    overflow:hidden;
 }
 
+/* General Layout */
+.grid-center{
+  display: grid;
+  place-items: center;
+}
 
 /* Components */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––– */ 
